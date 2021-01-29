@@ -1,0 +1,164 @@
+/* ESTILOS GLOBALES */
+.deskin {
+    display: none;
+}
+
+.mbin {
+    display: block;
+}
+
+/* MIGAS */
+
+#product-page #box-bread-brumb li a, #product-page #box-bread-brumb li a span {
+    color: #000;
+    font-family: 'Spartan';
+    /* padding-left: 10px; */
+}
+
+#box-bread-brumb li:before {
+    content: "/";
+    color: #000;
+}
+
+
+/*-------------------------------------------*\
+    IMAGEN PRINCIPAL
+\*-------------------------------------------*/
+
+.product-details .product-image {
+    margin-right: 0px; 
+    display: flex;
+}
+
+
+.gallery-prod{
+    padding-bottom: 40px;
+}
+
+    .gallery-prod .swiper-slide{
+        /* padding: 15px; */
+    }
+
+    .gallery-prod .swiper-button-next,
+    .gallery-prod .swiper-button-prev{
+        bottom: 5px;
+        top: auto;
+        color: #7B2476;
+        width: 40px;
+    }
+    .gallery-prod .swiper-button-next:after,
+    .gallery-prod .swiper-button-prev:after{
+        font-size: 16px;
+    }
+    .gallery-prod .swiper-button-prev{
+        right: 60px;
+        left: auto;
+    }
+
+    .gallery-prod .cant-fotos{
+        position: absolute;
+        bottom: 15px;
+        left: 15px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 12px;
+    }
+
+.gallery-thumbs{
+    margin-top: 20px;
+}
+
+.gallery-thumbs img {
+    -webkit-box-shadow: 1px 3px 5px 1px #ccc;  
+        -moz-box-shadow: 1px 3px 5px 1px #ccc; 
+         box-shadow: 1px 3px 5px 1px #ccc;
+}
+
+    .gallery-thumbs .swiper-slide{
+        
+        padding: 15px;
+        display: flex;
+        align-items: center;
+    }
+
+    .gallery-thumbs .swiper-slide-thumb-active img {
+        border: 2px solid #dec291;
+        -webkit-box-shadow: 1px 3px 5px 1px #dec291;
+        -moz-box-shadow: 1px 3px 5px 1px #dec291;
+        box-shadow: 1px 3px 5px 1px #dec291;
+        display: none;
+    }
+
+@media (max-width:768px){
+    
+    .gallery-thumbs .swiper-slide{
+        height: auto !important;
+        display: none;
+    }
+}
+
+@media (min-width:1024px){
+
+    .principal .product-image{
+        order: 1;
+        display: flex;
+        width: 100%;
+    }
+        .gallery-prod{
+            order: 1;
+            width: 70%;
+            height: 500px;
+        }
+        .gallery-thumbs{
+            order: 0;
+            width: 30%;
+            margin: 0;
+        }
+        .gallery-thumbs .swiper-slide{
+            padding: 10px;
+            align-items: initial;
+        }
+    
+}
+
+@media (min-width:768px){
+
+    .deskin {
+        display: block;
+    }
+    
+    .mbin {
+        display: none;
+    }
+
+
+}
+
+@media (max-width: 768px){
+#product-page #box-bread-brumb {
+    padding: 20px 20px 10px;
+}
+    
+.product-details .product-model.mbin {
+    display: flex;
+    margin-top: -13px;
+    font-size: 16px;
+}
+
+.product-details .product-name h1 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+.price-box .descricao-preco .valor-por strong {
+    font-size: 30px;
+   }
+
+.price-box .descricao-preco .valor-dividido span, .price-box .descricao-preco .valor-dividido label, .price-box .descricao-preco .valor-dividido strong {
+    font-size: 15px;
+}
+
+
+}
