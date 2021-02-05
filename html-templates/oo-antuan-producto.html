@@ -22,7 +22,24 @@
  <body id="product-page">
  
      <div class="close-menu">
-         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 14 14"><defs><style>.a{fill:#fff;}</style></defs><g transform="translate(14) rotate(90)"><g transform="translate(0 0)"><g transform="translate(0 0)"><path d="M14,.811,13.188,0,7,6.189.812,0,0,.811,6.188,7,0,13.189.812,14,7,7.812,13.188,14,14,13.189,7.811,7Z" style="fill: #fff"></path></g></g></g></svg>
+         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 14 14">
+             <defs>
+                 <style>
+                     .a {
+                         fill: #fff;
+                     }
+                 </style>
+             </defs>
+             <g transform="translate(14) rotate(90)">
+                 <g transform="translate(0 0)">
+                     <g transform="translate(0 0)">
+                         <path
+                             d="M14,.811,13.188,0,7,6.189.812,0,0,.811,6.188,7,0,13.189.812,14,7,7.812,13.188,14,14,13.189,7.811,7Z"
+                             style="fill: #fff"></path>
+                     </g>
+                 </g>
+             </g>
+         </svg>
      </div>
  
      <div class="page">
@@ -41,45 +58,49 @@
                  </div>
  
                  <div class="row product-details">
-                     <div class="col-xs-12 col-sm-7 details-desktop">
-
-                        <div class="product-name mbin">
-                            <h1>
-                                <vtex.cmc:productName />
-                            </h1>
-                        </div>
-                        <div class="product-model mbin">
-                            <p>Modelo</p><vtex.cmc:productReference/>
-                        </div>
+                     <div class="col-xs-12 col-sm-8 details-desktop">
  
-                        <div class="product-image">
-                            <div style="display:none;"><vtex.cmc:ProductImage/></div>
-                            <div class="swiper-container gallery-prod">
-                                <div class="swiper-wrapper"></div>
-                                <div class="swiper-button-next"></div>
-                                <div class="swiper-button-prev"></div>
-                                <div class="flags" style="display:none;">
-                                    <vtex.cmc:discountHightLight/>
-                                </div>
-                            </div> 
-                            <div class="swiper-container gallery-thumbs">
-                                <div class="swiper-wrapper"></div>
-                            </div>
-                        </div><!-- .product-image -->
-                         
+                         <div class="product-name mbin">
+                             <h1>
+                                 <vtex.cmc:productName />
+                             </h1>
+                         </div>
+                         <div class="product-model mbin">
+                             <p>Modelo</p>
+                             <vtex.cmc:productReference />
+                         </div>
+ 
+                         <div class="product-image">
+                             <div style="display:none;">
+                                 <vtex.cmc:ProductImage />
+                             </div>
+                             <div class="swiper-container gallery-prod">
+                                 <div class="swiper-wrapper"></div>
+                                 <div class="swiper-button-next"></div>
+                                 <div class="swiper-button-prev"></div>
+                                 <div class="flags" style="display:none;">
+                                     <vtex.cmc:discountHightLight />
+                                 </div>
+                             </div>
+                             <div class="swiper-container gallery-thumbs">
+                                 <div class="swiper-wrapper"></div>
+                             </div>
+                         </div><!-- .product-image -->
+ 
                      </div>
  
-                     <div class="col-xs-12 col-sm-5 product-info-cont">
+                     <div class="col-xs-12 col-sm-4 product-info-cont">
                          <div class="product-info">
-                             
+ 
                              <div class="product-name deskin">
                                  <h1>
                                      <vtex.cmc:productName />
                                  </h1>
                              </div>
                              <div class="product-model deskin">
-                                <p>Modelo</p><vtex.cmc:productReference/>
-                            </div>
+                                 <p>Modelo</p>
+                                 <vtex.cmc:productReference />
+                             </div>
  
                              <div class="price-box">
                                  <!--  Component: Sellers -->
@@ -98,26 +119,26 @@
                                  <vtex.cmc:OtherPaymentMethod />
                              </div><!-- .price-box -->
  
-                             <div class="person">
-                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="69" height="70" viewBox="0 0 69 70"><defs><clipPath id="clip-Chat"><rect width="69" height="70"></rect></clipPath></defs><g id="Chat" clip-path="url(#clip-Chat)"><g id="Grupo_3585" data-name="Grupo 3585" transform="translate(-279 -505)"><g id="Elipse_232" data-name="Elipse 232" transform="translate(281 508)" fill="#d1aa9c" stroke="#fff" stroke-width="2"><circle cx="31.5" cy="31.5" r="31.5" stroke="none"></circle><circle cx="31.5" cy="31.5" r="30.5" fill="none"></circle></g><g id="support" transform="translate(294.516 517.557)"><g id="Grupo_3565" data-name="Grupo 3565" transform="translate(26.42 29.641)"><g id="Grupo_3564" data-name="Grupo 3564"><path id="Trazado_3814" data-name="Trazado 3814" d="M356.8,396a.8.8,0,1,0,.8.8A.8.8,0,0,0,356.8,396Z" transform="translate(-356 -396)" fill="#fefefe"></path></g></g><g id="Grupo_3567" data-name="Grupo 3567" transform="translate(0 0)"><g id="Grupo_3566" data-name="Grupo 3566"><path id="Trazado_3815" data-name="Trazado 3815" d="M55.192,29.115l-3.805-1.268L50.02,25.115a8.769,8.769,0,0,0,2.373-4.639l.17-1.021h1.457a2.4,2.4,0,0,0,2.4-2.4V12.009a12.009,12.009,0,1,0-24.018,0v5.044a2.406,2.406,0,0,0,1.6,2.264v.938a2.4,2.4,0,0,0,2.4,2.4h.7a8.686,8.686,0,0,0,1.343,2.079c.113.13.232.257.353.38l-1.365,2.731-3.805,1.268A11.8,11.8,0,0,0,26,40.19a.8.8,0,0,0,.8.8H62.027a.8.8,0,0,0,.8-.8A11.8,11.8,0,0,0,55.192,29.115Zm-.37-12.062a.8.8,0,0,1-.8.8H52.8c.2-1.576.339-3.254.394-4.906,0-.047,0-.092,0-.138h1.625Zm-20.015.8a.8.8,0,0,1-.8-.8V12.81h1.625q0,.125.009.252v.009h0c.056,1.607.19,3.241.389,4.783H34.807Zm1.6,3.2a.8.8,0,0,1-.8-.8v-.8h.656l.17,1.021c.033.194.072.388.119.58Zm-.8-9.847H34.036a10.408,10.408,0,0,1,20.755,0H53.219A8.109,8.109,0,0,0,45.13,3.2H43.7A8.109,8.109,0,0,0,35.609,11.208ZM43.7,4.8H45.13a6.51,6.51,0,0,1,6.489,6.518c0,.252,0,.471-.006.671,0,0,0,.005,0,.008l-1-.143a12.865,12.865,0,0,1-7.233-3.616.8.8,0,0,0-.566-.234,7.243,7.243,0,0,0-5.569,2.635A6.508,6.508,0,0,1,43.7,4.8ZM38.212,21.056a45.761,45.761,0,0,1-.961-7.77l1.078-1.437A5.635,5.635,0,0,1,42.5,9.616a14.481,14.481,0,0,0,7.889,3.826l1.179.168c-.079,1.672-.24,3.35-.47,4.893v0c-.073.5-.131.815-.279,1.707a6.8,6.8,0,0,1-4.827,5.469,6.3,6.3,0,0,1-7.071-3.025h1.632a2.406,2.406,0,0,0,2.264,1.6h1.6a2.4,2.4,0,1,0,0-4.8h-1.6a2.4,2.4,0,0,0-2.265,1.6ZM42.745,27.3a8.03,8.03,0,0,0,2.978.067l-1.415,1.5Zm.462,2.727-2.539,2.685a30.5,30.5,0,0,1-1.792-4.156l.954-1.907Zm5.655-3.65,1.089,2.178a30.5,30.5,0,0,1-1.793,4.158L45.441,30Zm-6.85-4.523a.8.8,0,0,1,.8-.8h1.6a.8.8,0,1,1,0,1.6h-1.6A.8.8,0,0,1,42.012,21.856ZM27.633,39.39a10.118,10.118,0,0,1,6.509-8.756l3.37-1.123a32.094,32.094,0,0,0,2.279,4.943l0,.008h0a32.1,32.1,0,0,0,2.191,3.346l.985,1.581Zm16.781-.714-1.086-1.743q-.018-.029-.039-.057a30.527,30.527,0,0,1-1.8-2.695l2.855-3.019,3.008,3.008a30.49,30.49,0,0,1-1.81,2.706C45.5,36.928,45.555,36.846,44.414,38.676Zm1.442.714.985-1.581a32.091,32.091,0,0,0,2.207-3.373l.012-.021v0a32.068,32.068,0,0,0,2.255-4.9l3.37,1.123a10.118,10.118,0,0,1,6.509,8.756Z" transform="translate(-26)" fill="#fefefe"></path></g></g><g id="Grupo_3569" data-name="Grupo 3569" transform="translate(29.233 31.169)"><g id="Grupo_3568" data-name="Grupo 3568"><path id="Trazado_3816" data-name="Trazado 3816" d="M394.694,418.006a8,8,0,0,0-2.266-2.751.8.8,0,0,0-.976,1.269,6.392,6.392,0,0,1,1.81,2.2.8.8,0,0,0,1.433-.716Z" transform="translate(-391.139 -415.088)" fill="#fefefe"></path></g></g></g></g></g></svg>
-                             </div>
- 
                              <div class="qtySelector">
                                  <div class="cont">
                                      <vtex.cmc:stockKeepingUnitAmountAndUnitSelection />
                                  </div>
                              </div>
  
-                             <div class="seletor-sku">
+                             <div class="elegir-talle">
+                                 <div class="talle-new">
+                                     <span class="talletit">SELECCIONAR TALLE</span>
+                                     <vtex.cmc:stockKeepingUnitSelection />
+                                 </div>
+                             </div>
+ 
+                          <!--    <div class="seletor-sku">
                                  <div class="talle">
                                      <div class="title">Seleccionar talle</div>
-                                     <div class="talle-popup">
-                                         <svg xmlns="http://www.w3.org/2000/svg" width="31.164" height="31.164" viewBox="0 0 15.164 31.164"><defs><style>.a1{fill:#b98e7f;}</style></defs><g transform="translate(0.001 15.777) rotate(-45)"><g transform="translate(-0.001 -0.001)"><path class="a1" d="M22.2,4.458,17.74.106a.378.378,0,0,0-.526,0L.108,16.789a.356.356,0,0,0,0,.513l4.463,4.352a.378.378,0,0,0,.526,0L22.2,4.971a.356.356,0,0,0,0-.513ZM4.834,20.885.9,17.045,17.477.875l3.937,3.84Z" transform="translate(0.001 0.001)"/></g><g transform="translate(17.478 2.9)"><path class="a1" d="M385,76.8a.967.967,0,1,0,.967.967A.968.968,0,0,0,385,76.8Zm0,1.289a.322.322,0,1,1,.322-.322A.323.323,0,0,1,385,78.086Z" transform="translate(-384.03 -76.797)"/></g><g transform="translate(14.015 3.4)"><g transform="translate(0 0)"><rect class="a1" width="0.645" height="1.368" transform="translate(0 0.456) rotate(-45)"/></g></g><g transform="translate(12.921 4.507)"><g transform="translate(0 0)"><rect class="a1" width="0.645" height="1.823" transform="translate(0 0.456) rotate(-45)"/></g></g><g transform="translate(11.76 5.595)"><g transform="translate(0 0)"><rect class="a1" width="0.645" height="1.368" transform="translate(0 0.456) rotate(-45)"/></g></g><g transform="translate(10.66 6.707)"><g transform="translate(0 0)"><rect class="a1" width="0.645" height="1.823" transform="translate(0 0.456) rotate(-45)"/></g></g><g transform="translate(9.505 7.79)"><g transform="translate(0 0)"><rect class="a1" width="0.645" height="1.368" transform="translate(0 0.456) rotate(-45)"/></g></g><g transform="translate(8.399 8.907)"><g transform="translate(0 0)"><rect class="a1" width="0.645" height="1.823" transform="translate(0 0.456) rotate(-45)"/></g></g><g transform="translate(7.25 9.985)"><g transform="translate(0 0)"><rect class="a1" width="0.645" height="1.367" transform="matrix(0.707, -0.707, 0.707, 0.707, 0, 0.456)"/></g></g><g transform="translate(6.138 11.107)"><g transform="translate(0 0)"><rect class="a1" width="0.645" height="1.823" transform="translate(0 0.456) rotate(-45)"/></g></g><g transform="translate(4.995 12.181)"><g transform="translate(0 0)"><rect class="a1" width="0.645" height="1.368" transform="translate(0 0.456) rotate(-45)"/></g></g><g transform="translate(3.878 13.308)"><g transform="translate(0 0)"><rect class="a1" width="0.645" height="1.823" transform="translate(0 0.456) rotate(-45)"/></g></g><g transform="translate(2.351 14.377)"><g transform="translate(0 0)"><rect class="a1" width="0.645" height="1.368" transform="translate(0 0.456) rotate(-45)"/></g></g><g transform="translate(1.383 15.508)"><g transform="translate(0 0)"><rect class="a1" width="0.645" height="1.823" transform="translate(0 0.456) rotate(-45)"/></g></g></g></svg>
-                                         <svg xmlns="http://www.w3.org/2000/svg" width="19.797" height="28.162" viewBox="0 0 19.797 28.162"><defs><style>.a1{fill:#b98e7f;}</style></defs><g transform="translate(-76.04)"><g transform="translate(76.04 3.903)"><path class="a1" d="M87.022,75.488l2.528-2.107h0l.023-.021,0,0,.027-.029,0,0,.02-.027.007-.011.013-.022.008-.015.009-.019.007-.018.007-.018.006-.019,0-.019,0-.019c0-.007,0-.014,0-.022s0-.011,0-.017,0-.019,0-.028,0-.006,0-.009v0c0-.013,0-.027,0-.04v0c0-.011,0-.023-.005-.034s0-.011,0-.016,0-.015-.006-.022l-.006-.019-.007-.018-.008-.019-.008-.016-.011-.019,0-.009-1.027-1.673a.418.418,0,0,0-.356-.2H83.619a.418.418,0,0,0-.356.2l-1.027,1.673,0,.009-.011.019-.008.016L82.2,72.9l-.007.018-.006.019c0,.007,0,.015-.006.022l0,.016c0,.011,0,.023-.005.034v0c0,.013,0,.027,0,.04v0s0,.006,0,.009,0,.019,0,.028,0,.011,0,.017,0,.014,0,.022l0,.019,0,.019.006.019.007.018.007.018.009.019.008.015.013.022.007.011.02.027,0,0,.027.029,0,0,.023.021h0l2.528,2.107a9.9,9.9,0,1,0,2.167,0Zm-.665-.534V73.477h1.772Zm1.428-3.15h.239l.513.836H86.948Zm-1.183,0-.663.663-.663-.663Zm-2.748,0h.239l.836.836H83.34Zm-.105,1.673H85.52v1.477Zm2.191,20.912A9.062,9.062,0,1,1,95,85.327,9.072,9.072,0,0,1,85.938,94.389Z" transform="translate(-76.04 -70.967)"/></g><g transform="translate(77.713 10.038)"><g transform="translate(0)"><path class="a1" d="M122.26,187.52a8.242,8.242,0,0,0-.758-1.4,8.252,8.252,0,0,0-3.619-2.98,8.254,8.254,0,0,0-6.4,0,8.249,8.249,0,0,0-4.378,4.378,8.239,8.239,0,0,0,.694,7.7,8.21,8.21,0,0,0,6.885,3.724h0a8.217,8.217,0,0,0,6.215-2.839.418.418,0,1,0-.631-.549h0a7.5,7.5,0,0,1-1.131,1.058,7.4,7.4,0,0,1-7.514.831l-.01,0h0a7.394,7.394,0,1,1,9.558-3.181.418.418,0,0,0,.734.4,8.168,8.168,0,0,0,.743-1.875,8.256,8.256,0,0,0,.262-2.068A8.171,8.171,0,0,0,122.26,187.52Z" transform="translate(-106.455 -182.496)"/></g></g><g transform="translate(85.52)"><g transform="translate(0)"><path class="a1" d="M248.814,0a.418.418,0,0,0-.418.418V2.091a.418.418,0,0,0,.837,0V.418A.418.418,0,0,0,248.814,0Z" transform="translate(-248.396)"/></g></g><g transform="translate(81.338 1.121)"><path class="a1" d="M173.972,22.031l-.837-1.449a.418.418,0,0,0-.724.418l.837,1.449a.418.418,0,0,0,.724-.418Z" transform="translate(-172.355 -20.373)"/></g><g transform="translate(88.866 1.121)"><g transform="translate(0)"><path class="a1" d="M310.691,20.428a.418.418,0,0,0-.571.153l-.836,1.449a.418.418,0,1,0,.724.418L310.844,21A.418.418,0,0,0,310.691,20.428Z" transform="translate(-309.227 -20.372)"/></g></g></g></svg>
-                                         <p onclick="jQuery('.modal-encuentraTalla').closest('.modal-cont').fadeToggle();jQuery('#modal-bg').addClass('active');">Encuentra tu talla</p>
-                                     </div>
+ 
                                  </div>
                                  <vtex.cmc:skuSelection />
+<<<<<<< Updated upstream
                              </div><!-- .seletor-sku -->
  
                              <!-- OTROS METODOS DE PAGO
@@ -133,37 +154,633 @@
                                      <svg xmlns="http://www.w3.org/2000/svg" width="19.432" height="15.834" viewBox="0 0 19.432 15.834"><defs><style>.a{fill:#292c2f;}</style></defs><g transform="translate(0 -45.676)"><path class="a" d="M19.218,45.89a.692.692,0,0,0-.506-.214H7.2a.73.73,0,0,0-.72.72v2.159h-1.8a1.735,1.735,0,0,0-.658.146,1.72,1.72,0,0,0-.568.36L1.226,51.287a1.531,1.531,0,0,0-.253.337,2.048,2.048,0,0,0-.157.343,1.865,1.865,0,0,0-.073.416q-.022.264-.028.388t0,.427q.006.3.006.394v3.6a.691.691,0,0,0-.506.214A.691.691,0,0,0,0,57.911a.9.9,0,0,0,.045.3.426.426,0,0,0,.152.208q.107.079.185.129a.621.621,0,0,0,.264.067l.253.023q.068.005.287,0l.253-.006h.72A2.774,2.774,0,0,0,3,60.666a2.774,2.774,0,0,0,2.035.843,2.774,2.774,0,0,0,2.035-.843,2.773,2.773,0,0,0,.843-2.035h4.318a2.878,2.878,0,0,0,4.914,2.035,2.773,2.773,0,0,0,.843-2.035l.253.006q.219.005.287,0l.253-.023a.62.62,0,0,0,.264-.067q.079-.051.185-.129a.425.425,0,0,0,.152-.208.9.9,0,0,0,.045-.3V46.4A.692.692,0,0,0,19.218,45.89ZM6.05,59.643a1.412,1.412,0,0,1-2.024,0,1.439,1.439,0,0,1,1.012-2.452A1.431,1.431,0,0,1,6.05,59.643Zm.427-6.77H2.159v-.337a.337.337,0,0,1,.1-.247L4.453,50.1a.336.336,0,0,1,.247-.1H6.477Zm9.648,6.77a1.412,1.412,0,1,1,.427-1.012A1.384,1.384,0,0,1,16.126,59.643Z" transform="translate(0 0)"/></g></svg>
                                      Opciones de envío</p>
                              </div>
+=======
+>>>>>>> Stashed changes
  
-                             <!-- CALCULAR ENVIO
-                             <div class="shipping-box">
-                             <vtex.cmc:shippingValue />
-                             <script type="text/javascript">
-                                 $(document).ready(function () {
-                                     ShippingValue();
-                                 });
-                             </script>
-                             </div>
-                             -->
  
-                             <div class="container-fluid description">
-                                 <div class="container">
-                                     <div class="row">
-                                         <div class="labels">
-                                             <h2 class="title car active">Características</h2>
-                                         </div>
-                                         <div class="product-description-box">
-                                             <div id="description">
-                                                  <!--  Component: Description -->
-                                                  <vtex.cmc:productSpecification/>
-                                              </div>
-                                         </div>
-                                     </div>
-                                 </div>
+                             </div>  --><!-- .seletor-sku -->
+ 
+ 
+                             <div class="talle-popup"
+                                 onclick="jQuery('.modal-encuentraTalla').closest('.modal-cont').fadeToggle();jQuery('#modal-bg').addClass('active');">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="31.164" height="31.164"
+                                     viewBox="0 0 15.164 31.164">
+                                     <defs>
+                                         <style>
+                                             .a1 {
+                                                 fill: #b98e7f;
+                                             }
+                                         </style>
+                                     </defs>
+                                     <g transform="translate(0.001 15.777) rotate(-45)">
+                                         <g transform="translate(-0.001 -0.001)">
+                                             <path class="a1"
+                                                 d="M22.2,4.458,17.74.106a.378.378,0,0,0-.526,0L.108,16.789a.356.356,0,0,0,0,.513l4.463,4.352a.378.378,0,0,0,.526,0L22.2,4.971a.356.356,0,0,0,0-.513ZM4.834,20.885.9,17.045,17.477.875l3.937,3.84Z"
+                                                 transform="translate(0.001 0.001)" />
+                                         </g>
+                                         <g transform="translate(17.478 2.9)">
+                                             <path class="a1"
+                                                 d="M385,76.8a.967.967,0,1,0,.967.967A.968.968,0,0,0,385,76.8Zm0,1.289a.322.322,0,1,1,.322-.322A.323.323,0,0,1,385,78.086Z"
+                                                 transform="translate(-384.03 -76.797)" />
+                                         </g>
+                                         <g transform="translate(14.015 3.4)">
+                                             <g transform="translate(0 0)">
+                                                 <rect class="a1" width="0.645" height="1.368"
+                                                     transform="translate(0 0.456) rotate(-45)" />
+                                             </g>
+                                         </g>
+                                         <g transform="translate(12.921 4.507)">
+                                             <g transform="translate(0 0)">
+                                                 <rect class="a1" width="0.645" height="1.823"
+                                                     transform="translate(0 0.456) rotate(-45)" />
+                                             </g>
+                                         </g>
+                                         <g transform="translate(11.76 5.595)">
+                                             <g transform="translate(0 0)">
+                                                 <rect class="a1" width="0.645" height="1.368"
+                                                     transform="translate(0 0.456) rotate(-45)" />
+                                             </g>
+                                         </g>
+                                         <g transform="translate(10.66 6.707)">
+                                             <g transform="translate(0 0)">
+                                                 <rect class="a1" width="0.645" height="1.823"
+                                                     transform="translate(0 0.456) rotate(-45)" />
+                                             </g>
+                                         </g>
+                                         <g transform="translate(9.505 7.79)">
+                                             <g transform="translate(0 0)">
+                                                 <rect class="a1" width="0.645" height="1.368"
+                                                     transform="translate(0 0.456) rotate(-45)" />
+                                             </g>
+                                         </g>
+                                         <g transform="translate(8.399 8.907)">
+                                             <g transform="translate(0 0)">
+                                                 <rect class="a1" width="0.645" height="1.823"
+                                                     transform="translate(0 0.456) rotate(-45)" />
+                                             </g>
+                                         </g>
+                                         <g transform="translate(7.25 9.985)">
+                                             <g transform="translate(0 0)">
+                                                 <rect class="a1" width="0.645" height="1.367"
+                                                     transform="matrix(0.707, -0.707, 0.707, 0.707, 0, 0.456)" />
+                                             </g>
+                                         </g>
+                                         <g transform="translate(6.138 11.107)">
+                                             <g transform="translate(0 0)">
+                                                 <rect class="a1" width="0.645" height="1.823"
+                                                     transform="translate(0 0.456) rotate(-45)" />
+                                             </g>
+                                         </g>
+                                         <g transform="translate(4.995 12.181)">
+                                             <g transform="translate(0 0)">
+                                                 <rect class="a1" width="0.645" height="1.368"
+                                                     transform="translate(0 0.456) rotate(-45)" />
+                                             </g>
+                                         </g>
+                                         <g transform="translate(3.878 13.308)">
+                                             <g transform="translate(0 0)">
+                                                 <rect class="a1" width="0.645" height="1.823"
+                                                     transform="translate(0 0.456) rotate(-45)" />
+                                             </g>
+                                         </g>
+                                         <g transform="translate(2.351 14.377)">
+                                             <g transform="translate(0 0)">
+                                                 <rect class="a1" width="0.645" height="1.368"
+                                                     transform="translate(0 0.456) rotate(-45)" />
+                                             </g>
+                                         </g>
+                                         <g transform="translate(1.383 15.508)">
+                                             <g transform="translate(0 0)">
+                                                 <rect class="a1" width="0.645" height="1.823"
+                                                     transform="translate(0 0.456) rotate(-45)" />
+                                             </g>
+                                         </g>
+                                     </g>
+                                 </svg>
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="19.797" height="28.162"
+                                     viewBox="0 0 19.797 28.162">
+                                     <defs>
+                                         <style>
+                                             .a1 {
+                                                 fill: #b98e7f;
+                                             }
+                                         </style>
+                                     </defs>
+                                     <g transform="translate(-76.04)">
+                                         <g transform="translate(76.04 3.903)">
+                                             <path class="a1"
+                                                 d="M87.022,75.488l2.528-2.107h0l.023-.021,0,0,.027-.029,0,0,.02-.027.007-.011.013-.022.008-.015.009-.019.007-.018.007-.018.006-.019,0-.019,0-.019c0-.007,0-.014,0-.022s0-.011,0-.017,0-.019,0-.028,0-.006,0-.009v0c0-.013,0-.027,0-.04v0c0-.011,0-.023-.005-.034s0-.011,0-.016,0-.015-.006-.022l-.006-.019-.007-.018-.008-.019-.008-.016-.011-.019,0-.009-1.027-1.673a.418.418,0,0,0-.356-.2H83.619a.418.418,0,0,0-.356.2l-1.027,1.673,0,.009-.011.019-.008.016L82.2,72.9l-.007.018-.006.019c0,.007,0,.015-.006.022l0,.016c0,.011,0,.023-.005.034v0c0,.013,0,.027,0,.04v0s0,.006,0,.009,0,.019,0,.028,0,.011,0,.017,0,.014,0,.022l0,.019,0,.019.006.019.007.018.007.018.009.019.008.015.013.022.007.011.02.027,0,0,.027.029,0,0,.023.021h0l2.528,2.107a9.9,9.9,0,1,0,2.167,0Zm-.665-.534V73.477h1.772Zm1.428-3.15h.239l.513.836H86.948Zm-1.183,0-.663.663-.663-.663Zm-2.748,0h.239l.836.836H83.34Zm-.105,1.673H85.52v1.477Zm2.191,20.912A9.062,9.062,0,1,1,95,85.327,9.072,9.072,0,0,1,85.938,94.389Z"
+                                                 transform="translate(-76.04 -70.967)" />
+                                         </g>
+                                         <g transform="translate(77.713 10.038)">
+                                             <g transform="translate(0)">
+                                                 <path class="a1"
+                                                     d="M122.26,187.52a8.242,8.242,0,0,0-.758-1.4,8.252,8.252,0,0,0-3.619-2.98,8.254,8.254,0,0,0-6.4,0,8.249,8.249,0,0,0-4.378,4.378,8.239,8.239,0,0,0,.694,7.7,8.21,8.21,0,0,0,6.885,3.724h0a8.217,8.217,0,0,0,6.215-2.839.418.418,0,1,0-.631-.549h0a7.5,7.5,0,0,1-1.131,1.058,7.4,7.4,0,0,1-7.514.831l-.01,0h0a7.394,7.394,0,1,1,9.558-3.181.418.418,0,0,0,.734.4,8.168,8.168,0,0,0,.743-1.875,8.256,8.256,0,0,0,.262-2.068A8.171,8.171,0,0,0,122.26,187.52Z"
+                                                     transform="translate(-106.455 -182.496)" />
+                                             </g>
+                                         </g>
+                                         <g transform="translate(85.52)">
+                                             <g transform="translate(0)">
+                                                 <path class="a1"
+                                                     d="M248.814,0a.418.418,0,0,0-.418.418V2.091a.418.418,0,0,0,.837,0V.418A.418.418,0,0,0,248.814,0Z"
+                                                     transform="translate(-248.396)" />
+                                             </g>
+                                         </g>
+                                         <g transform="translate(81.338 1.121)">
+                                             <path class="a1"
+                                                 d="M173.972,22.031l-.837-1.449a.418.418,0,0,0-.724.418l.837,1.449a.418.418,0,0,0,.724-.418Z"
+                                                 transform="translate(-172.355 -20.373)" />
+                                         </g>
+                                         <g transform="translate(88.866 1.121)">
+                                             <g transform="translate(0)">
+                                                 <path class="a1"
+                                                     d="M310.691,20.428a.418.418,0,0,0-.571.153l-.836,1.449a.418.418,0,1,0,.724.418L310.844,21A.418.418,0,0,0,310.691,20.428Z"
+                                                     transform="translate(-309.227 -20.372)" />
+                                             </g>
+                                         </g>
+                                     </g>
+                                 </svg>
+                                 <p>Encuentra tu talla</p>
                              </div>
  
                              <div class="buy-button-box">
                                  <vtex.cmc:BuyInPage />
                              </div><!-- .buy-button-box -->
+ 
+                             <div class="modales-on">
+                                 <div class="pagos-on"
+                                     onclick="jQuery('.modal-calcularcuotas').closest('.modal-cont').fadeToggle();jQuery('#modal-bg').addClass('active');">
+                                     <div class="tarjetas">
+                                         <div class="visa"><svg version="1.1" id="Capa_1"
+                                                 xmlns="http://www.w3.org/2000/svg"
+                                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                 viewBox="0 0 52 24" style="enable-background:new 0 0 52 24;"
+                                                 xml:space="preserve">
+                                                 <style type="text/css">
+                                                     .st0 {
+                                                         opacity: 0.5;
+                                                         fill-rule: evenodd;
+                                                         clip-rule: evenodd;
+                                                         fill: #2A2A6C;
+                                                         enable-background: new;
+                                                     }
+ 
+                                                     .st1 {
+                                                         opacity: 0.5;
+                                                     }
+ 
+                                                     .st2 {
+                                                         opacity: 1.000000e-02;
+                                                     }
+ 
+                                                     .st3 {
+                                                         fill: #FFFFFF;
+                                                     }
+ 
+                                                     .st4 {
+                                                         fill: #F26122;
+                                                     }
+ 
+                                                     .st5 {
+                                                         fill: #EA1D25;
+                                                     }
+ 
+                                                     .st6 {
+                                                         fill-rule: evenodd;
+                                                         clip-rule: evenodd;
+                                                         fill: #F69E1E;
+                                                     }
+ 
+                                                     .st7 {
+                                                         fill: #F69E1E;
+                                                     }
+ 
+                                                     .st8 {
+                                                         fill: #7272B5;
+                                                     }
+ 
+                                                     .st9 {
+                                                         fill: #ED1C24;
+                                                     }
+ 
+                                                     .st10 {
+                                                         fill-rule: evenodd;
+                                                         clip-rule: evenodd;
+                                                         fill: #00A1DE;
+                                                     }
+ 
+                                                     .st11 {
+                                                         fill: #00A1DE;
+                                                     }
+ 
+                                                     .st12 {
+                                                         fill: #505050;
+                                                         fill-opacity: 0.5;
+                                                     }
+                                                 </style>
+                                                 <path class="st0" d="M36.5,14.8c0-2.5-2.1-3.6-3.7-4.5c-1-0.5-1.9-1-1.9-1.6c0-0.5,0.5-1.1,1.7-1.3c1.3-0.1,2.7,0.1,3.9,0.7l0.7-3.3
+                                            c-1.2-0.4-2.4-0.7-3.7-0.7c-3.9,0-6.6,2.1-6.6,5.1c0,2.2,2,3.4,3.5,4.2c1.5,0.7,2.1,1.2,2.1,1.9c0,1-1.2,1.5-2.4,1.5
+                                            c-1.4,0-2.8-0.3-4-1l-0.7,3.3c1.4,0.5,2.9,0.8,4.4,0.8c4.2,0,6.9-2.1,6.9-5.2L36.5,14.8z M25.8,4.4l-3.3,15.3h-4l3.3-15.3H25.8z
+                                             M42.4,14.3l2.1-5.7l1.2,5.7H42.4z M50.5,19.7h-3.7l-0.5-2.3h-5l-0.8,2.3h-4.2l5.9-14.2c0.3-0.7,0.9-1.1,1.7-1.1h3.3L50.5,19.7z
+                                             M13.8,19.6l6.4-15.3h-4.3l-4.1,10.4l-1.7-8.9C10,5,9.2,4.3,8.3,4.3H1.6L1.5,4.8c1.4,0.3,2.7,0.7,3.9,1.3c0.5,0.2,0.9,0.8,0.9,1.3
+                                            l3.2,12.2H13.8z" />
+                                             </svg></div>
+                                         <div class="masterc"><svg version="1.1" id="Capa_1"
+                                                 xmlns="http://www.w3.org/2000/svg"
+                                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                 viewBox="0 0 39 24" style="enable-background:new 0 0 39 24;"
+                                                 xml:space="preserve">
+                                                 <style type="text/css">
+                                                     .st0 {
+                                                         opacity: 0.5;
+                                                         fill-rule: evenodd;
+                                                         clip-rule: evenodd;
+                                                         fill: #2A2A6C;
+                                                         enable-background: new;
+                                                     }
+ 
+                                                     .st1 {
+                                                         opacity: 0.5;
+                                                     }
+ 
+                                                     .st2 {
+                                                         opacity: 1.000000e-02;
+                                                     }
+ 
+                                                     .st3 {
+                                                         fill: #FFFFFF;
+                                                     }
+ 
+                                                     .st4 {
+                                                         fill: #F26122;
+                                                     }
+ 
+                                                     .st5 {
+                                                         fill: #EA1D25;
+                                                     }
+ 
+                                                     .st6 {
+                                                         fill-rule: evenodd;
+                                                         clip-rule: evenodd;
+                                                         fill: #F69E1E;
+                                                     }
+ 
+                                                     .st7 {
+                                                         fill: #F69E1E;
+                                                     }
+ 
+                                                     .st8 {
+                                                         fill: #7272B5;
+                                                     }
+ 
+                                                     .st9 {
+                                                         fill: #ED1C24;
+                                                     }
+ 
+                                                     .st10 {
+                                                         fill-rule: evenodd;
+                                                         clip-rule: evenodd;
+                                                         fill: #00A1DE;
+                                                     }
+ 
+                                                     .st11 {
+                                                         fill: #00A1DE;
+                                                     }
+ 
+                                                     .st12 {
+                                                         fill: #505050;
+                                                         fill-opacity: 0.5;
+                                                     }
+                                                 </style>
+                                                 <g class="st1">
+                                                     <g class="st2">
+                                                         <rect x="0.1" y="-0.8" class="st3" width="38.7" height="25.6" />
+                                                     </g>
+                                                     <rect x="14.4" y="3.7" class="st4" width="10.2" height="16.7" />
+                                                     <path class="st5" d="M15.5,12c0-3.2,1.5-6.3,4-8.3C15.1,0.2,8.9,0.7,5.1,4.8c-3.8,4.1-3.8,10.3,0,14.4c3.8,4.1,10,4.6,14.4,1.1
+                                                C17,18.3,15.5,15.2,15.5,12z" />
+                                                     <path class="st6" d="M35.6,18.2v0.3h-0.1L35.6,18.2h-0.2v-0.1h0.3v0.1H35.6z M36.3,18.2v0.4h-0.1v-0.3l-0.1,0.3h-0.1l-0.1-0.3v0.3
+                                                h-0.1v-0.4H36l0.1,0.3l0.1-0.3H36.3z" />
+                                                     <path class="st7" d="M36.7,12c0,4.1-2.3,7.8-6,9.5c-3.7,1.8-8,1.3-11.2-1.2c4.6-3.6,5.4-10.3,1.8-14.9c-0.5-0.7-1.1-1.3-1.8-1.8
+                                                c3.2-2.5,7.5-3,11.2-1.2S36.7,7.9,36.7,12z" />
+                                                 </g>
+                                             </svg></div>
+                                         <div class="masterc ult"><svg version="1.1" id="Capa_1"
+                                                 xmlns="http://www.w3.org/2000/svg"
+                                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                 viewBox="0 0 39 24" style="enable-background:new 0 0 39 24;"
+                                                 xml:space="preserve">
+                                                 <style type="text/css">
+                                                     .st0 {
+                                                         opacity: 0.5;
+                                                         fill-rule: evenodd;
+                                                         clip-rule: evenodd;
+                                                         fill: #2A2A6C;
+                                                         enable-background: new;
+                                                     }
+ 
+                                                     .st1 {
+                                                         opacity: 0.5;
+                                                     }
+ 
+                                                     .st2 {
+                                                         opacity: 1.000000e-02;
+                                                     }
+ 
+                                                     .st3 {
+                                                         fill: #FFFFFF;
+                                                     }
+ 
+                                                     .st4 {
+                                                         fill: #F26122;
+                                                     }
+ 
+                                                     .st5 {
+                                                         fill: #EA1D25;
+                                                     }
+ 
+                                                     .st6 {
+                                                         fill-rule: evenodd;
+                                                         clip-rule: evenodd;
+                                                         fill: #F69E1E;
+                                                     }
+ 
+                                                     .st7 {
+                                                         fill: #F69E1E;
+                                                     }
+ 
+                                                     .st8 {
+                                                         fill: #7272B5;
+                                                     }
+ 
+                                                     .st9 {
+                                                         fill: #ED1C24;
+                                                     }
+ 
+                                                     .st10 {
+                                                         fill-rule: evenodd;
+                                                         clip-rule: evenodd;
+                                                         fill: #00A1DE;
+                                                     }
+ 
+                                                     .st11 {
+                                                         fill: #00A1DE;
+                                                     }
+ 
+                                                     .st12 {
+                                                         fill: #505050;
+                                                         fill-opacity: 0.5;
+                                                     }
+                                                 </style>
+                                                 <g class="st1">
+                                                     <g class="st2">
+                                                         <rect x="0.1" y="-0.8" class="st3" width="38.7" height="25.6" />
+                                                     </g>
+                                                     <rect x="14.4" y="3.7" class="st8" width="10.2" height="16.7" />
+                                                     <path class="st9" d="M15.5,12c0-3.2,1.5-6.3,4-8.3C15.1,0.2,8.9,0.7,5.1,4.8c-3.8,4.1-3.8,10.3,0,14.4c3.8,4.1,10,4.6,14.4,1.1
+                                                C17,18.3,15.5,15.2,15.5,12z" />
+                                                     <path class="st10" d="M35.6,18.2v0.3h-0.1L35.6,18.2h-0.2v-0.1h0.4v0.1H35.6z M36.3,18.2v0.4h-0.1v-0.3l-0.1,0.3h-0.1l-0.1-0.3v0.3
+                                                h-0.1v-0.4H36l0.1,0.3l0.1-0.3H36.3z" />
+                                                     <path class="st11" d="M36.7,12c0,4.1-2.3,7.8-6,9.5c-3.7,1.8-8,1.3-11.2-1.2c4.6-3.6,5.4-10.3,1.8-14.9c-0.5-0.7-1.1-1.3-1.8-1.8
+                                                c3.2-2.5,7.5-3,11.2-1.2S36.7,7.9,36.7,12z" />
+                                                 </g>
+                                             </svg></div>
+                                     </div>
+                                     <div class="textos">Conocé nuestras opciones de pago.</div>
+                                 </div>
+                                 <div class="envios-on"
+                                     onclick="jQuery('.modal-calcularenvio').closest('.modal-cont').fadeToggle();jQuery('#modal-bg').addClass('active');">
+                                     <div class="envios">
+                                         <div class="icon"><svg version="1.1" id="Capa_1"
+                                                 xmlns="http://www.w3.org/2000/svg"
+                                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                 viewBox="0 0 28 36" style="enable-background:new 0 0 28 36;"
+                                                 xml:space="preserve">
+                                                 <style type="text/css">
+                                                     .st0 {
+                                                         opacity: 0.5;
+                                                         fill-rule: evenodd;
+                                                         clip-rule: evenodd;
+                                                         fill: #2A2A6C;
+                                                         enable-background: new;
+                                                     }
+ 
+                                                     .st1 {
+                                                         opacity: 0.5;
+                                                     }
+ 
+                                                     .st2 {
+                                                         opacity: 1.000000e-02;
+                                                     }
+ 
+                                                     .st3 {
+                                                         fill: #FFFFFF;
+                                                     }
+ 
+                                                     .st4 {
+                                                         fill: #F26122;
+                                                     }
+ 
+                                                     .st5 {
+                                                         fill: #EA1D25;
+                                                     }
+ 
+                                                     .st6 {
+                                                         fill-rule: evenodd;
+                                                         clip-rule: evenodd;
+                                                         fill: #F69E1E;
+                                                     }
+ 
+                                                     .st7 {
+                                                         fill: #F69E1E;
+                                                     }
+ 
+                                                     .st8 {
+                                                         fill: #7272B5;
+                                                     }
+ 
+                                                     .st9 {
+                                                         fill: #ED1C24;
+                                                     }
+ 
+                                                     .st10 {
+                                                         fill-rule: evenodd;
+                                                         clip-rule: evenodd;
+                                                         fill: #00A1DE;
+                                                     }
+ 
+                                                     .st11 {
+                                                         fill: #00A1DE;
+                                                     }
+ 
+                                                     .st12 {
+                                                         fill: #505050;
+                                                         fill-opacity: 0.5;
+                                                     }
+                                                 </style>
+                                                 <path class="st12" d="M14.3,2.2C8.4,2.2,3.6,7,3.6,12.9C3.6,20.3,14.3,33,14.3,33S25,20,25,12.9C25,7,20.2,2.2,14.3,2.2z M17.5,16
+                                            c-0.9,0.9-2.1,1.3-3.2,1.3c-1.2,0-2.3-0.4-3.2-1.3c-1.8-1.8-1.8-4.7,0-6.4c0.9-0.9,2-1.3,3.2-1.3s2.4,0.5,3.2,1.3
+                                            C19.3,11.4,19.3,14.3,17.5,16z" />
+                                             </svg></div>
+                                         <div class="icon"><svg version="1.1" id="Capa_1"
+                                                 xmlns="http://www.w3.org/2000/svg"
+                                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                 viewBox="0 0 37 36" style="enable-background:new 0 0 37 36;"
+                                                 xml:space="preserve">
+                                                 <style type="text/css">
+                                                     .st0 {
+                                                         opacity: 0.5;
+                                                         fill-rule: evenodd;
+                                                         clip-rule: evenodd;
+                                                         fill: #2A2A6C;
+                                                         enable-background: new;
+                                                     }
+ 
+                                                     .st1 {
+                                                         opacity: 0.5;
+                                                     }
+ 
+                                                     .st2 {
+                                                         opacity: 1.000000e-02;
+                                                     }
+ 
+                                                     .st3 {
+                                                         fill: #FFFFFF;
+                                                     }
+ 
+                                                     .st4 {
+                                                         fill: #F26122;
+                                                     }
+ 
+                                                     .st5 {
+                                                         fill: #EA1D25;
+                                                     }
+ 
+                                                     .st6 {
+                                                         fill-rule: evenodd;
+                                                         clip-rule: evenodd;
+                                                         fill: #F69E1E;
+                                                     }
+ 
+                                                     .st7 {
+                                                         fill: #F69E1E;
+                                                     }
+ 
+                                                     .st8 {
+                                                         fill: #7272B5;
+                                                     }
+ 
+                                                     .st9 {
+                                                         fill: #ED1C24;
+                                                     }
+ 
+                                                     .st10 {
+                                                         fill-rule: evenodd;
+                                                         clip-rule: evenodd;
+                                                         fill: #00A1DE;
+                                                     }
+ 
+                                                     .st11 {
+                                                         fill: #00A1DE;
+                                                     }
+ 
+                                                     .st12 {
+                                                         fill: #505050;
+                                                         fill-opacity: 0.5;
+                                                     }
+                                                 </style>
+                                                 <path class="st12" d="M30.9,12.8h-4.6V6.6H4.6C2.9,6.6,1.5,8,1.5,9.7v17h3.1c0,2.6,2.1,4.6,4.6,4.6c2.6,0,4.6-2.1,4.6-4.6h9.3
+                                            c0,2.6,2.1,4.6,4.6,4.6c2.6,0,4.6-2.1,4.6-4.6h3.1V19L30.9,12.8z M9.2,29c-1.3,0-2.3-1-2.3-2.3c0-1.3,1-2.3,2.3-2.3
+                                            c1.3,0,2.3,1,2.3,2.3C11.5,28,10.5,29,9.2,29z M27.8,29c-1.3,0-2.3-1-2.3-2.3c0-1.3,1-2.3,2.3-2.3c1.3,0,2.3,1,2.3,2.3
+                                            C30.1,28,29.1,29,27.8,29z M26.2,19v-3.9h3.9l3,3.9H26.2z" />
+                                             </svg>
+                                         </div>
+                                         <div class="icon ult"><svg version="1.1" id="Capa_1"
+                                                 xmlns="http://www.w3.org/2000/svg"
+                                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                 viewBox="0 0 37 36" style="enable-background:new 0 0 37 36;"
+                                                 xml:space="preserve">
+                                                 <style type="text/css">
+                                                     .st0 {
+                                                         opacity: 0.5;
+                                                         fill-rule: evenodd;
+                                                         clip-rule: evenodd;
+                                                         fill: #2A2A6C;
+                                                         enable-background: new;
+                                                     }
+ 
+                                                     .st1 {
+                                                         opacity: 0.5;
+                                                     }
+ 
+                                                     .st2 {
+                                                         opacity: 1.000000e-02;
+                                                     }
+ 
+                                                     .st3 {
+                                                         fill: #FFFFFF;
+                                                     }
+ 
+                                                     .st4 {
+                                                         fill: #F26122;
+                                                     }
+ 
+                                                     .st5 {
+                                                         fill: #EA1D25;
+                                                     }
+ 
+                                                     .st6 {
+                                                         fill-rule: evenodd;
+                                                         clip-rule: evenodd;
+                                                         fill: #F69E1E;
+                                                     }
+ 
+                                                     .st7 {
+                                                         fill: #F69E1E;
+                                                     }
+ 
+                                                     .st8 {
+                                                         fill: #7272B5;
+                                                     }
+ 
+                                                     .st9 {
+                                                         fill: #ED1C24;
+                                                     }
+ 
+                                                     .st10 {
+                                                         fill-rule: evenodd;
+                                                         clip-rule: evenodd;
+                                                         fill: #00A1DE;
+                                                     }
+ 
+                                                     .st11 {
+                                                         fill: #00A1DE;
+                                                     }
+ 
+                                                     .st12 {
+                                                         fill: #505050;
+                                                         fill-opacity: 0.5;
+                                                     }
+                                                 </style>
+                                                 <path class="st12" d="M32.5,10.6C32.5,10.6,32.5,10.6,32.5,10.6c0-0.1,0-0.2-0.1-0.2v0c0-0.1-0.1-0.1-0.1-0.2l0,0
+                                            c0,0-0.1-0.1-0.1-0.1l0,0h0l0,0L18.9,3.5c-0.2-0.1-0.6-0.1-0.8,0l-4.4,2.2l13.2,6.8l0,0c0,0,0,0,0.1,0c0,0,0,0.1,0.1,0.1
+                                            c0,0,0,0,0,0.1v0v7.2c0,0.1-0.1,0.2-0.2,0.3l-2.7,1.4c-0.2,0.1-0.3,0-0.4-0.1c0,0,0-0.1,0-0.2v-7L10.4,7.3l0,0L5,10l0,0h0l0,0
+                                            c0,0-0.1,0.1-0.1,0.1l0,0c-0.1,0.1-0.1,0.1-0.2,0.2v0c0,0.1-0.1,0.1-0.1,0.2c0,0,0,0,0,0.1c0,0.1,0,0.1,0,0.2v0v14.4
+                                            c0,0.3,0.2,0.7,0.5,0.8l13,6.5c0.2,0.1,0.4,0.1,0.6,0.1l0.1,0c0.1,0,0.1,0,0.2-0.1L32,26c0.3-0.2,0.5-0.5,0.5-0.8V10.8v0
+                                            C32.5,10.7,32.5,10.7,32.5,10.6z" />
+                                             </svg></div>
+                                     </div>
+                                     <div class="textos">Conocé nuestras opciones de envío.</div>
+                                 </div>
+                             </div>
+ 
+<<<<<<< Updated upstream
+                             <div class="buy-button-box">
+                                 <vtex.cmc:BuyInPage />
+                             </div><!-- .buy-button-box -->
+=======
+ 
+>>>>>>> Stashed changes
                          </div>
                      </div>
                  </div>
@@ -172,8 +789,38 @@
  
  
          <div class="container">
+             <div class="container-fluid description">
+                     <div class="row">
+                         <div class="labels">
+                             <h2 class="title car active">Características</h2>
+                         </div>
+                         <div class="product-description-box">
+                             <div id="description">
+                                 <!--  Component: Description -->
+                                 <vtex.cmc:productSpecification />
+                             </div>
+                         </div>
+                     </div>
+             </div>
+ 
+             <!-- CARRUSEL COMPLETA TU COMPRA CON -->
              <div class="product-description-box description-2">
-                 <h3 class="title">También podría gustarte</h3>
+                 <h3 class="title"><span class="linea">Completá tu compra con</span></h3>
+                 <div class="sugerencias">
+                     <vtex:contentPlaceHolder id="sugerencias" />
+                 </div><!-- .showcase-default -->
+             </div>
+ 
+             <!-- COMPRAR JUNTO -->
+             <div class="product-description-box description-2">
+                 <div class="juntos">
+                     <vtex.cmc:BuyTogether />
+                 </div>
+             </div>
+ 
+             <!-- CARRUSEL PRODUCTOS RELACIONADOS -->
+             <div class="product-description-box description-2">
+                 <h3 class="title"><span class="linea">También te pueden gustar</span></h3>
                  <div class="showcase-default showcase-owl">
                      <vtex:contentPlaceHolder id="Quem-viu-viu-tambem" />
                  </div><!-- .showcase-default -->
@@ -184,25 +831,6 @@
          <vtex:template id="Footer" />
          <!-- /SubTemplate: Footer -->
  
-         <div id="comprar-flutuante">
-             <div class="container-fluid">
-                 <div class="row">
-                     <div>
-                         <img src="/arquivos/sem-foto.gif" alt="" id="foto-comprar-flutuante"
-                             class="img-responsive" />
-                     </div>
-                     <div class="col-nome hidden-xs">
-                         <vtex.cmc:productName />
-                     </div>
-                     <div class="col-precos">
-                         <vtex.cmc:skuPrice />
-                     </div>
-                     <div class="col-comprar">
-                         <vtex.cmc:BuyButton />
-                     </div>
-                 </div>
-             </div>
-         </div>
  
          <!-- MODAL POPUPS -->
  
@@ -210,14 +838,14 @@
              <div class="modal-header">
                  <div class="close" data-dismiss="modal">x</div>
              </div>
-              <div class="modal-body ir-carrito">
+             <div class="modal-body ir-carrito">
                  <h2>Agregado al carrito satisfactoriamente</h2>
                  <div class="ir-carrito-producto">
  
                  </div>
                  <a href="#" class="btn-seguir-comprando">Seguir comprando</a>
                  <a href="/checkout/#/cart" class="btn-ir-carrito">Ver carrito</a>
-              </div>
+             </div>
          </div>
  
          <button type="button" class="hidden abrir-popup-existe" data-toggle="modal"
@@ -238,12 +866,12 @@
                  <div class="close"
                      onclick="javascript: jQuery(event.currentTarget).closest('.modal-cont').fadeToggle();jQuery('#modal-bg').removeClass('active');">
                      <script>
-                         <!--</script>×<script>
-                         -->
-                     </script>
+                          </script>×<script>
+                          
+                         </script>
                  </div>
                  <div class="cont">
-                     <vtex:contentPlaceHolder id="modalCalcEnvio"/>
+                     <vtex:contentPlaceHolder id="modalCalcEnvio" />
                  </div>
              </div>
          </div>
@@ -253,12 +881,12 @@
                  <div class="close"
                      onclick="javascript: jQuery(event.currentTarget).closest('.modal-cont').fadeToggle();jQuery('#modal-bg').removeClass('active');">
                      <script>
-                         <!--</script>×<script>
-                         -->
-                     </script>
+                          </script>×<script>
+                          
+                         </script>
                  </div>
                  <div class="cont">
-                     <vtex:contentPlaceHolder id="modalCalcCuotas"/>
+                     <vtex:contentPlaceHolder id="modalCalcCuotas" />
                  </div>
              </div>
          </div>
@@ -268,12 +896,12 @@
                  <div class="close"
                      onclick="javascript: jQuery(event.currentTarget).closest('.modal-cont').fadeToggle();jQuery('#modal-bg').removeClass('active');">
                      <script>
-                         <!--</script>×<script>
-                         -->
-                     </script>
+                          </script>×<script>
+                          
+                         </script>
                  </div>
                  <div class="cont">
-                     <vtex:contentPlaceHolder id="modalTalla"/>
+                     <vtex:contentPlaceHolder id="modalTalla" />
                  </div>
              </div>
          </div>
@@ -282,11 +910,13 @@
  
      </div>
  </body>
- 
+ <script src="/arquivos/jquery.magnify.js"></script>
+ <script src="/arquivos/swiper-bundle.min.js"></script>
+ <script src="/arquivos/product2.js"></script>
  <vtex:template id="commonScripts" />
+ <script src="/arquivos/products-carrusel.js"></script>
  <script src="/arquivos/custom-product.js?v=146"></script>
- <script src="https://antuansrl.vteximg.com.br/arquivos/jquery.magnify.js"></script>
- <script src="https://antuansrl.vteximg.com.br/arquivos/swiper-bundle.min.js"></script>
- <script src="https://antuansrl.vteximg.com.br/arquivos/product.js"></script>
+ 
+ 
  
  </html>
